@@ -67,3 +67,7 @@ def compare2directories(source, replica):
 while True:
     compare2directories(sys.argv[1], sys.argv[2])
     time.sleep(4)
+    
+   
+   
+ #thıs lıne iadded ffromi testbranchı
