@@ -65,5 +65,7 @@ def compare2directories(source, replica):
             logging.info('file removed: ' + fileToBeRemoved)
 
 while True:
+    time.sleep(int(sys.argv[3]))
     compare2directories(sys.argv[1], sys.argv[2])
-    time.sleep(4)
+    logging.info(int(sys.argv[3]))
+    
