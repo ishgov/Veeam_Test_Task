@@ -68,4 +68,3 @@ while True:
     time.sleep(int(sys.argv[3]))
     compare2directories(sys.argv[1], sys.argv[2])
     logging.info(int(sys.argv[3]))
-    
