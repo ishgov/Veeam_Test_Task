@@ -26,7 +26,7 @@ def compare2directories(source, replica):
     filesOfSource = os.listdir(source)
     filesOfReplica = os.listdir(replica)
 
- 
+
     filesToBeAddedToReplica = []
     
     filesToBeRemovedFromReplica = []
@@ -63,6 +63,8 @@ def compare2directories(source, replica):
             os.remove(replica + '\\' + fileToBeRemoved)                          
             log('file removed: ' + fileToBeRemoved)
             logging.info('file removed: ' + fileToBeRemoved)
+
+
 
 while True:
     time.sleep(int(sys.argv[3]))
